@@ -1,0 +1,13 @@
+﻿namespace WorkoutClientApp
+{
+    // Client-side DTO. Must match the API's Workout shape.
+    public class Workout
+    {
+        public int WorkoutId { get; set; }
+        public string Exercise { get; set; } = string.Empty;
+        public int Sets { get; set; }
+        public int Reps { get; set; }
+        public int Weight { get; set; }
+        public DateOnly Date { get; set; }
+    }
+}

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WorkoutAPI/WorkoutAPI.csproj" />
+  <Project Path="WorkoutClientApp/WorkoutClientApp.csproj" Id="8fed5536-7e0f-4442-a8a6-7414a0c5117e" />
+</Solution>
